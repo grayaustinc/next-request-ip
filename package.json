@@ -1,7 +1,7 @@
 {
   "name": "next-header-ip",
   "description": "A small Node.js module to retrieve the header's IP address",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "@grayaustinc",
   "license": "Unlicense",
   "main": "lib/index.js",
