@@ -1,0 +1,25 @@
+{
+  "name": "next-header-ip",
+  "description": "A small Node.js module to retrieve the header's IP address",
+  "version": "0.0.1",
+  "author": "@grayaustinc",
+  "license": "Unlicense",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "sideEffects": false,
+  "files": [
+    "lib/",
+    "esm/"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "next": "^15.2.4",
+    "rollup": "^4.39.0",
+    "rollup-plugin-dts": "^6.2.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.8.3"
+  }
+}
